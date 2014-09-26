@@ -5,6 +5,8 @@ GrombyangOS Project
 
 Contact
 ------------
-**GrombyangPortals** http://grombyang.or.id/
+**Portals** http://grombyang.or.id/
+
+**Forums** http://forum.grombyang.or.id/
 
 **Twitter** https://twitter.com/forumpemalang
