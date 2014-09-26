@@ -1,0 +1,87 @@
+#==============================================================
+#        __       __       __       __       __
+#       / /\     / /\     /_/\     / /\     / /\
+#      / / |_   / / /\   _\ \ \   / /  \   / / /
+#     /_/  |/\ /_/ /  \ /_/\/  \ /_/ / /_ /_/ / /\
+#  __ \_\/|  / \ \  / / \ \  /\/ \ \  __/ \ \ \/ /
+# /_/\  |_| /   \ \/ /   \ \ \    \ \ \    \ \  /
+# \_\/  \_\/     \_\/     \_\/     \_\/     \_\/
+#
+# M A I N   C O N F I G   F I L E
+#
+
+#=-=-=-=-=-=-=-=-
+# load load
+#=-=-=-=-=-=-=-=-
+
+autoload -U colors && colors
+autoload -U compinit && compinit
+autoload -U vcs_info && vcs_info
+
+#setopt
+setopt \
+  autocd \
+  extendedglob \
+  prompt_subst \
+  inc_append_history
+
+bindkey -e
+
+#=-=-=-=-
+# other
+#=-=-=-=-
+
+#history
+HISTFILE=~/.config/zsh/history
+HISTSIZE=512
+SAVEHIST=512
+
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Import seperate config files
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+for r in $HOME/.config/zsh/*.zsh; do
+  if [[ $DEBUG > 0 ]]; then
+    echo "zsh: sourcing $r"
+  fi
+  source $r
+done
+
+eval $( dircolors -b $HOME/.config/zsh/LS_COLORS )
+export LS_COLORS
+
+#=-=-=-=-=-=-
+# Autojump
+#=-=-=-=-=-=-
+
+#source /etc/profile.d/autojump.zsh
+
+#=-=-=-=-=-=-=-=-
+# Xorg autostart
+#=-=-=-=-=-=-=-=-
+
+#if [[ -z "$DISPLAY" ]] && [[ $(tty) = /dev/tty1 ]]; then
+#  xinit
+#  logout
+#fi
+
+#=-=-=-=-=-=-=-=-
+# Tmux autostart
+#=-=-=-=-=-=-=-=-
+#if which tmux 2>&1 >/dev/null; then
+#   # if no session is started, start a new session
+#   if test -z ${TMUX}; then
+#       tmux
+#   fi
+#   # when quitting tmux, try to attach
+#   while test -z ${TMUX}; do
+#       tmux attach || break
+#   done
+#fi
+
+#source "$HOME/.rvm/scripts/rvm" # Load RVM
+
+# vim: set ft=zsh :
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

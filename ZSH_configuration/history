@@ -1,0 +1,525 @@
+screenfetch
+screenfo -c alsi
+clear
+cd /etc/
+ls
+cd /home/randalltux/etc/
+ls
+ls -all
+cd ..
+clear
+ncmpcpp 
+ncmpcpp 
+cd scripts/configs/Daisuke/
+ks
+clear
+ls
+sudo cp -r Beep/ Dash/ Dweep/ /usr/share/fonts/misc/
+sudo fc-cache -vf
+cd ~/.xmonad/
+clear
+./music.sh 
+clear
+./music.sh 
+nano music.sh 
+clear
+./music.sh 
+nano .xmonad/autostart.sh 
+false 
+cd .config/zsh//
+ls
+nano 02-aliases.zsh 
+reboot 
+cat /usr/bin/tint2restart
+free -m
+free -m
+sudo nano .xinitrc 
+reboot 
+bash
+sudo nano .Xdefaults 
+sudo nano .xinitrc 
+reboot 
+sudo pacman -S wine winetricks 
+winecfg
+ncmpcpp 
+cd .ncmpcpp//
+ls
+cp config config.default
+clear
+mousepad config
+ls
+cp config.ahoka config
+mousepad config
+ncmpcpp 
+ncmpcpp 
+nano .Xdefaults 
+ncmpcpp 
+nano .Xdefaults 
+nano .Xdefaults 
+ncmpcpp
+mpd --kill
+mpd 
+ncmpcpp 
+nano .ncmpcpp/config
+mpd --kill
+mpd 
+ncmpcpp 
+mpd --kill
+mpd 
+mpc update 
+ncmpcpp 
+ncmpcpp 
+cd .xmonad/xmonad_mine/
+cd ..
+clear
+ls
+chmod +x panelatas.sh 
+cd .xmonad/
+cd xmonad_mine
+ls
+cp autostart.sh ~/.xmonad//
+reboot 
+nano .Xdefaults 
+nano ~/colors/dotshare 
+cd .xmonad/
+ls
+nano xmonad.hs 
+nano colors/dotshare 
+nano colors/dotshare 
+ncmpcpp 
+ncmpcpp 
+cd scripts//
+cd dep/screenfo/ascii/
+cd ..
+clear
+./screenfo 
+clear
+./screenfo 
+clear
+./screenfo 
+cd ~/.xmonad/xmonad_mine/
+ls
+clear
+./music.sh 
+./screenfo 
+clear
+./screenfo 
+feh
+sudo pacman -S feh
+sudo pacman -S ranger
+sudo pacman -Rsncd ranger 
+cd scripts/dep/
+cear
+clear
+git clone https://github.com/hut/ranger.git
+cd scripts/configs/Daisuke/ascii/
+clear
+ls
+cat enterprise 
+ls
+cat fed 
+cat particle 
+ls
+cat romulan 
+ls
+cat starfleet
+clear
+vim ~/.xmonad/xmonad.hs 
+clear
+ls
+clear
+ls++ 
+cd ..
+cd ~/.xmonad/
+clear
+ls
+clear
+ls++ 
+ls++ ~/colors/
+ls++ all ~/colors//
+ls++ /etc//
+clear
+uname -a 
+id
+w
+cd ranger/
+clear
+sudo make install 
+cat install_log.txt 
+ranger/
+ranger
+cd ~/.config/ranger
+ls
+ls -all
+clear
+ranger
+yaourt img2txt
+sudo pacman -S w3m libcaca mediainfo
+ranger
+clear
+yaourt caca
+ranger --copy-config=all
+ranger 
+nano ~/.Xdefaults 
+ranger 
+ranger 
+clear
+sudo pacman -S atool highlight poppler
+ranger 
+clear
+sudo pacman -S w3m-img
+yaourt w3m-img
+yaourt w3m
+clear
+sudo pacman -S xterm 
+clear
+sudo pacman -S xterm 
+clear
+sudo pacman -S xterm 
+clear
+yaourt -S xterm
+sudo pacman -S xterm -y
+clear
+ranger 
+clear
+./screenfo && scrot -cd 5 Yotsuba.png
+clear
+./screenfo && scrot -cd 5 Yotsuba.jpg
+cd .config/ranger
+ls
+nano scope.sh 
+ranger 
+sudo nano /etc/mkinitcpio.conf 
+sudo mkinitcpio -p linux
+sudo nano /etc/mkinitcpio.conf 
+sudo mkinitcpio -p linux
+ncmpcpp 
+ncmpcpp 
+ncmpcpp 
+mkdir AndroidDevs
+cd AndroidDevs//
+clear
+wget https://aur.archlinux.org/packages/an/android-sdk/android-sdk.tar.gz
+ls
+tar xvfz android-sdk.tar.gz
+cd android-sdk//
+makepkg -si
+yourt earthquake
+yaourt  earthquake
+cd scripts/coding/earthquake/
+gem build earthquake.gemspec 
+sudo nano /etc/gemrc 
+clear
+gem build earthquake.gemspec 
+ls
+nano earthquake.gemspec 
+vim earthquake.gemspec 
+vim Gemfile 
+gem install gemspec
+yaourt gemspec
+clear
+cd ..
+wget https://aur.archlinux.org/packages/an/android-sdk-platform-tools/android-sdk-platform-tools.tar.gz
+tar xvfz android-sdk-platform-tools.tar.gz 
+cd android-sdk-platform-tools
+makepkg -si
+mpd_status
+mpd_status
+ncmpcpp 
+ncmpcpp 
+mpc --help
+mpc -h
+mpc toggle 
+mpc next 
+mpc prev 
+sudo nano /usr/share/polkit-1/actions/org.freedesktop.udisks.policy 
+sudo nano /usr/share/polkit-1/actions/org.freedesktop.udisks.policy 
+sudo mount /dev/sda2 -o rw /mnt/
+sudo mount /dev/sda2 -o ro /mnt/
+genfstab -p -U /mnt >> /mnt/etc/fstab
+genfstab -p -U /mnt >> /etc/fstab 
+sudo genfstab -p -U /mnt >> /etc/fstab 
+nano /etc/fstab 
+sudo gpasswd -a randalltux storage
+sudo nano ~/.xinitrc 
+sudo nano ~/.xinitrc 
+sudo pacman -S polkit-gnome gvfs
+reboot 
+sudo nano .xinitrc 
+sudo nano /etc/mkinitcpio.conf
+sudo mkinitcpio -p linux
+reboot 
+shutdown 
+mpd 
+ncmpcpp 
+ranger 
+sudo mount /dev/sda2 -o rw /mnt/
+clear
+sudo mount /dev/sda2 -o ro /mnt/
+cd .xmonad/xmonad_mine/
+cd ..
+cd .xmonad/
+cd .xmonad/
+clear
+clear
+clear
+ls
+vim xmonad.hs 
+cd .xmonad/
+nano xmonad.hs 
+vim xmonad.hs 
+mousepad xmonad.hs 
+vim ~/.xmonad/xmonad.hs 
+reboot 
+free -m
+ncmpcpp 
+ncmpcpp 
+vim ~/.xmonad/xmonad.hs 
+sudo mount /dev/sda2 -o rw /mnt/
+sudo mount /dev/sda2 -o ro /mnt/
+ncmpcpp 
+shutdown 
+sudo pacman -Syu
+weechat
+cd .weechat//
+ls
+mousepad weechat.conf 
+clear
+weechat
+nano colors/spring
+nano .Xdefaults 
+ncmpcpp 
+nano .Xdefaults 
+clear
+clear
+ncmpcpp 
+ncmpcpp 
+screen weechat
+nano .screenrc 
+mousepad .screenrc 
+screen weechat-curses 
+quit
+sudo pacman -S htop 
+htop
+clear
+screen weechat-curses
+nano .screenrc 
+screen weechat-curses
+weechat
+weechat-curses 
+killall weechat-curses
+killall weechat 
+screen
+weechat
+killall weechat-curses 
+weechat
+weechat-curses
+clear
+alsi -a -u
+clear
+screenfo -c alsi
+clear
+cd scripts/dep/screenfo/ascii/
+cd ..
+clear
+./screenfo 
+clear
+clear
+clear
+clear
+./screenfo && scrot -cd 5 xmonad.jpg
+clear
+ls
+clear
+./screenfo && scrot -cd 5 xmonad.jpg
+clear
+cd /home/randalltux/randalltuxarc
+cd ..
+clear
+ls
+cd /home/randalltux//
+clear
+sudo pacman -S gnome gnome-extra gnome-system-tools
+sudo pacman -S gnome gnome-extra
+sudo nano ~/.xinitre
+sudo nano ~/.xinitrc 
+sudo nano ~/.xinitrc 
+sudo systemctl reboot 
+ls -all
+sudo pacman -S gnome-tweak-tool 
+cd .themes/Phosphene
+ls
+cd gnome-shell/
+ls
+nano gnome-shell.css 
+mpd 
+ncmpcpp 
+ncmpcpp 
+clear
+cd .themes//
+cd Phosphene
+clear
+ls
+cd gnome-shell/ls
+cd gnome-shell/assets/
+cd ..
+clear
+ls
+vim gnome-shell.css 
+sudo mv Fleche/ Phosphene /usr/share/themes/
+ls -all
+clear
+ncmpcpp 
+cd /usr/share/themes/Phosphene
+ls
+cd gnome-shell/
+ls
+sudo gedit gnome-shell.css 
+ncmpcpp 
+cd scripts/dep/screenfo/
+./screenfo 
+alsi -a u
+clear
+alsi -a -u
+alsi 
+clear
+cd .config
+ls
+cd ~/.config/gtk-3.0
+ls
+nano settings.ini 
+nano bookmarks 
+cd ..
+ls
+cd gtk-2.0
+ls
+nano gtkfilechooser.ini
+ncmpcpp
+cd scripts/configs/
+git clone https://github.com/chriskempson/base16-gnome-terminal.git
+clear
+cd base16-gnome-terminal/
+clear
+ls
+vim base16-monokai.dark.sh
+cd scripts/configs/base16-gnome-terminal//
+c;ear
+clear
+ls
+./base16-google.dark.sh
+./base16-solarized.dark.sh
+clear
+ls
+ncmpcpp 
+clear
+ls -all
+alsi 
+alsi -a -u
+nano .Xdefaults 
+ncmpcpp
+sudo pacman -Syu
+sudo mv Vold Vold\ Dark Vold\ LT Vold\ LT\ Dark /usr/share/themes/
+sudo mv Numix-flatstudio Numix-flatstudio-dark /usr/share/themes/
+env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+clear
+env x='() { :;}; echo vulnerable' bash -c "TAEK KABEH! COEG KABEH
+env x='() { :;}; echo vulnerable' bash -c "TAEK KABEH! COEG KABEH"
+clear
+env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
+clear
+env x='() { :;}; echo vulnerable' bash -c "echo TAEK KABEH! COEG KABEH"
+env X='() { (a)=>\' sh -c "echo date"; cat echo
+clear
+env x='() { :;}; echo vulnerable' bash -c "echo TAEK KABEH! COEG KABEH"
+env X='() { (a)=>\' sh -c "echo date"; cat echo
+ls -all
+clear
+cd scripts/configs/base16-gnome-terminal/
+clear
+ls
+./base16-railscasts.dark.sh
+alsi -a -u
+cd scripts/dep/screenfo/
+./screenfo 
+ncmpcpp 
+clear
+./screenfo 
+clear
+./screenfo 
+cd  scripts/dep/screenfo/
+clear
+./screenfo 
+ncmpcpp 
+sudo mv felipev2 /usr/share/fonts/TTF/
+sudo fc-cache -vf
+sudo mv Plane-Dark Plane-White /usr/share/themes/
+yaourt roboto
+bash
+ncmpcpp 
+ncmpcpp 
+git clone https://github.com/randalltuxarc/GrombyangOS.git
+cd GrombyangOS//
+clear
+ls
+clear
+touch README.md
+nano README.md 
+git init 
+git add README.md 
+git commit -m "First Commit"
+git remote add origin https://github.com/randalltuxarc/GrombyangOS.git
+git push -u origin master:
+git push origin master:
+git push origin master 
+clear
+ls
+touch list_apps.md
+rm list_apps.md 
+rm list_apps.md 
+ls
+nano README.md 
+git add .
+git commit -m "first commit"
+git push origin master 
+nano README.md 
+git add .
+git commit -m "first commit"
+git commit -m "first commit"
+git push origin master 
+nano README.md 
+git add .
+git commit -m "first commit"
+git push origin master 
+ls -all
+cd scripts/dep/screenfo
+ls
+ls++ 
+clear
+yaourt xvidcap
+yaourt -S xvidcap
+cd scripts/configs/
+ls++ 
+cd my-awesome-wm-config/themes
+ls
+cd default/
+yaourt screen-recorder
+yaourt screen recorder
+yaourt screen recorder
+cd scripts/dep/screenfo/ascii/
+cd ..
+cd ..
+cd ~/colors/
+clear
+git add .
+git commit -m "add ZSH_configuration"
+git push origin master 
+git add --all 
+git commit -m "add ZSH_configuration"
+git push origin master 
+git add .
+git commit -m "add ZSH_configuration"
+git push origin master 
+ls
+git add .
+git commit -m "nothing changes"
+git push origin master 
