@@ -5,6 +5,8 @@ GrombyangOS Project
 
 Contact
 ------------
+**Wiki** http://wiki.grombyang.or.id/
+
 **Portals** http://grombyang.or.id/
 
 **Forums** http://forum.grombyang.or.id/
